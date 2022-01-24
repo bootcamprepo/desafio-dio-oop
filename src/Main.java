@@ -47,7 +47,7 @@ public class Main {
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
         devJoao.inscreverBootCamp(bootcamp);
-        System.out.println("Conteúdos Inscritos  " + devJoao.getNome() +" :"+  + devJoao.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos  " + devJoao.getNome() +" :"+   devJoao.getConteudosInscritos());
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
